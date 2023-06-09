@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap By SKILLHUB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .category {
+            transition: 500ms;
+        }
+
+        .category:hover {
+            background-color: white;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+    <div id="nav-search" class="collapse" class="alert alert-primary mb-0 fade ">
+        <div class="container my-5 ">
+            <div class="input-group ">
+                <input type="text" placeholder="Search offer kart" class="form-control">
+                <button class="btn btn-primary btn-group"><i class="bi bi-search"></i></button>
+            </div>
+
+            <h6 class=" my-3 text-dark">Quick Links</h6>
+
+            <div class="row  text-dark">
+                <div class="col-sm-3  ">
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-1</a>
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-2</a>
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-3</a>
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-4</a>
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-5</a>
+                </div>
+
+                <div class="col-sm-3  ">
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-1</a>
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-2</a>
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-3</a>
+                    <a class="d-block mt-2  text-decoration-none" href="">Link-5</a>
+                </div>
+                <div class="col-sm-6  ">
+
+                    <div class="card">
+
+                        <div class="card-body">
+
+                            <div class="row">
+
+                                <div class="col-sm-6 "><img class="img-fluid"
+                                        src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813"
+                                        alt="">
+                                </div>
+
+                                <div class="col-sm-6 mt-4">
+                                    <h4>Featured Items </h4>
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit
+                                        Lorem ipsum dolor sit.
+                                    </p>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Shop Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------Navbar Start---------------- -->
+
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+        <div class="container">
+            <a class="navbar-brand text-light" href="#">
+                <h4>SKILLHUB</h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="#nav">
+                <div class="navbar-nav">
+
+
+                    <button class="btn btn-light  dropdown-toggle" type="button" id="dropdownMenuButton1"
+                        data-bs-toggle="dropdown">
+                        Menu
+                    </button>
+                    <ul class="dropdown-menu alert alert-primary w-100">
+
+                        <div class="container ">
+                            <div class="row ">
+                                <div class="col-sm-4 category p-3">
+                                    <div class="d-flex  gap-3">
+                                        <i class="bi bi-laptop fs-1"></i>
+                                    </div>
+                                    <p><strong>Laptops</strong></p>
+                                    <p>Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="ms-auto">
+                    <button data-bs-toggle="collapse" data-bs-target="#nav-search" type="button"
+                        class="btn btn-outline-light"><i class="bi bi-search"></i></button>
+                    <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" type="button"
+                        class="btn btn-outline-light"><i class="bi bi-cart"></i></button>
+                    <button data-bs-toggle="offcanvas" data-bs-target="#login" type="button" class="btn btn-light">
+                        Login<i class="bi bi-lock"></i></button>
+                </div>
+
+
+            </div>
+        </div>
+        </div>
+    </nav>
+
+    <!-- -------------------Navbar End---------------- -->
+
+    <!-- -------------------carousel Start---------------- -->
+    <div id="carousel slide" data-bs-ride="carousel" data-bs-interval="500">
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+
+                <div class="containe">
+                    <div class="row">
+
+                        <div class="col-sm-6 text-end mt-0">
+                            <img class="img-fluid"
+                                src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813" alt="">
+                        </div>
+
+                        <div class="col-sm-6 mt-5">
+                            <h1>Dell XPS 13 pro</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id animi asperiores fugiat
+                                incidunt officia esse!</p>
+                            <button type="button" class="btn btn-primary">Shop Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- -------------------carousel End---------------- -->
+
+
+    <!-- -------------------Feature start---------------- -->
+
+    <div class="bg-primary py-4">
+        <div class="d-flex container justify-content-between">
+            <div class="text-light d-flex gap-3">
+                <i class="bi bi-credit-card fs-1 "></i>
+                <div>
+                    <h6>
+                        Secure Checkout
+                    </h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="text-light d-flex gap-3">
+                <i class="bi bi-credit-card fs-1 "></i>
+                <div>
+                    <h6>
+                        Secure Checkout
+                    </h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <div class="text-light d-flex gap-3">
+                <i class="bi bi-credit-card fs-1 "></i>
+                <div>
+                    <h6>
+                        Secure Checkout
+                    </h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------Feature end---------------- -->
+
+
+    <!-- -------------------Product Start---------------- -->
+
+    <div class="container mt-4 d-flex justify-content-between align-items-center">
+        <h3>Featured Product</h3>
+        <button type="button" class="btn btn-primary">View All</button>
+    </div>
+
+
+    <div class="container ">
+        <div class="row">
+            <div class="col sm-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="d-flex">
+                            <div> <img class="img-fluid"
+                                    src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813"
+                                    alt=""></div>
+                            <div class="w-50">
+                                <img class="img-fluid"
+                                    src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813"
+                                    alt="">
+                                <img class="img-fluid"
+                                    src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813"
+                                    alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="card-footer alert alert-primary mb-0">
+                        <div class="d-flex justify-content-between">
+                            <strong>MSI Zeta</strong>
+                            <p>Starting Price <strong>78,555</strong></p>
+                        </div>
+                        <button type="button" class="btn btn-outline-primary w-100">Shop Now</button>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div class="card-body">
+
+                        <div class="d-fle justify-content-between">
+                            <span class="badge text-bg-success">Most popular</span>
+                            <i class="bi bi-heart"></i>
+                        </div>
+                        <div class="text-center">
+                            <img class="img-fluid"
+                                src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813" alt="">
+                            <p>Router</p>
+                            <p>Starting From 1,999</p>
+                            <i class=" text-warning bi bi-star-fill"></i>
+                            <i class=" text-warning bi bi-star-fill"></i>
+                            <i class=" text-warning bi bi-star-fill"></i>
+                            <i class=" text-warning bi bi-star-fill"></i>
+                            <i class=" text-warning bi bi-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------Product End---------------- -->
+
+
+    <!-- -------------------offcanvas Start---------------- -->
+
+    <div class="offcanvas offcanvas-end" id="offcanvasExample">
+        <div class="offcanvas-header bg-primary text-light">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">cart</h5>
+            <button type="button" class="btn-close text-bg-light" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body alert alert-primary">
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img class="img img-fluid"
+                                    src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-5">
+                                <h6>Dell XPS 13 Pro</h6>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-sm-4"><strong>$33,333</strong></div>
+                        </div>
+                        <p class="text-success">You have save <strong>$199</strong> on this order </p>
+                        <div class="btn-group w-100">
+                            <button class="btn btn-outline-success"><i class="bi bi-download"></i></button>
+                            <button class="btn btn-outline-warning"><i class="bi bi-heart"></i></button>
+                            <button class="btn btn-outline-danger"><i class="bi bi-trash"></i></button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <img class="img img-fluid"
+                                    src="https://dlcdnwebimgs.asus.com/gain/A96277F2-9062-45A7-8808-2C0C15E01813"
+                                    alt="">
+                            </div>
+                            <div class="col-sm-5">
+                                <h6>Dell XPS 13 Pro</h6>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="col-sm-4"><strong>$33,333</strong></div>
+                        </div>
+                        <p class="text-success">You have save <strong>$199</strong> on this order </p>
+                        <div class="btn-group w-100">
+                            <button class="btn btn-outline-success"><i class="bi bi-download"></i></button>
+                            <button class="btn btn-outline-warning"><i class="bi bi-heart"></i></button>
+                            <button class="btn btn-outline-danger"><i class="bi bi-trash"></i></button>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-3">
+                <div class="card">
+                    <div class="card-body">
+                        <p data-bs-toggle="collapse" data-bs-target="#cupon">I have cupon</p>
+                        <div id="cupon" class="collapse">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="username" aria-label="username">
+                                <button type="button" class="btn btn-primary">Apply</button>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Price</span>
+                            <span>35335</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Gst tax</span>
+                            <span>5225</span>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <span>Total</span>
+                            <span>7525</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------------offcanvas End---------------- -->
+
+
+
+    <!-- ----------------------Login strat  ------------------------ -->
+
+    <div class="offcanvas offcanvas-end " id="login">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title " id="offcanvasExampleLabel">Login</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+
+
+            <div class="card">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                    <div>
+                        <label for="email" class="form-label">First Email</label>
+                        <input type="text" class="form-control" id="email" placeholder="Enter Your Email" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <div class="mt-2">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter Your Password" />
+                        <div class="valid-feedback">Looks good!</div>
+                        <div class="invalid-feedback">Please choose a username.</div>
+                    </div>
+                    <button type="button" class="btn btn-primary w-100 mt-3">
+                        Login
+                    </button>
+                    <p class="text-center mt-3">
+                        Dont Have Account? <a href="#">Create Account</a>
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- ----------------------Login end  ------------------------ -->
+
+
+    <!-- ----------------------  ------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
